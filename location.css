@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header khusus untuk halaman location */
+.location-header {
+    background-color: #1a202c;
+    color: #ffffff;
+    padding: 1rem 0;
+}
+
+.location-header-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.location-nav-list {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.location-nav-link {
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.location-nav-link:hover {
+    color: #d69e2e;
+}
+
+.location-nav-link.active {
+    color: #d69e2e;
+}
+
+/* Main content khusus untuk halaman location */
+.location-main {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.location-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.location-description {
+    color: #718096;
+    margin-bottom: 2rem;
+}
+
+.location-image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.location-map-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.375rem;
+}

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header styling khusus halaman customer */
+.header {
+    background-color: #1a202c;
+}
+
+.header-title {
+    font-size: 1.25rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-link {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #a0aec0;
+}
+
+.nav-link.active {
+    color: #a0aec0;
+}
+
+/* Main content styling khusus halaman customer */
+.main-title {
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+/* Grid layout untuk item customer */
+.customer-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin-top: 7rem;
+}
+
+.customer-item {
+    text-align: center;
+}
+
+.customer-logo {
+    width: 100px; /* Atur ukuran lebar gambar */
+    height: 100px; /* Atur ukuran tinggi gambar */
+    object-fit: contain; /* Memastikan gambar tidak terdistorsi */
+    border-radius: 8px;
+}
+
+
+.customer-name {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    font-weight: 700;
+}
+
+.customer-category {
+    color: #718096;
+    font-size: 0.875rem;
+}
